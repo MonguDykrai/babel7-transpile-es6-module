@@ -9,3 +9,5 @@ module.exports = {
   transpileDependencies: ['vue-clamp', 'resize-detector'] // 不用转译开发依赖
 }
 ```
+
+https://github.com/MonguDykrai/babel7-transpile-es6-module
