@@ -1,29 +1,5 @@
 # babel7-transpile-es6-module
 
-## Project setup
-```
-yarn install
-```
+https://github.com/appbaseio/reactivesearch/blob/96bcc162b955fae6a75fa2554ede89576dc9ec61/packages/web/src/polyfills.js
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://github.com/MonguDykrai/babel7-transpile-es6-module

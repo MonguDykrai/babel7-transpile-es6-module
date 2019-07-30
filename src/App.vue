@@ -13,14 +13,13 @@ export default {
   name: "App",
   data() {
     return {
-      MobileDetect: require("mobile-detect")
+      Bowser: require("bowser")
     };
   },
   mounted() {
-    // console.log(this.MobileDetect);
-    const md = new this.MobileDetect(window.navigator.userAgent);
-    console.log(md.mobile());
-    console.log(md.userAgent());
+    const browser = this.Bowser.getParser(window.navigator.userAgent);
+
+    console.log(`The current browser name is "${browser.getBrowserName()}"`);
   }
 };
 </script>
