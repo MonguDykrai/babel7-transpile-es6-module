@@ -1,29 +1,11 @@
 # babel7-transpile-es6-module
 
-## Project setup
-```
-yarn install
-```
+不用转译开发依赖
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+vue-clamp 只有一个非开发依赖，因此 vue.config.js 中只需要写
 
-### Compiles and minifies for production
+```js
+module.exports = {
+  transpileDependencies: ['vue-clamp', 'resize-detector'] // 不用转译开发依赖
+}
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
